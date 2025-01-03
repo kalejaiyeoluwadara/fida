@@ -22,11 +22,14 @@
   font-style: normal;
   font-display: swap;
 }
-.box {
-  @apply px-6 border-r;
+.link{
+  @apply hover:text-black transition-all text-gray-500
 }
-html {
-  @apply overflow-x-hidden;
+.box {
+  @apply px-6 border-r py-4 ;
+}
+h1{
+  @apply Medium
 }
 .Clash {
   font-family: "Clash", sans-serif;
@@ -39,4 +42,7 @@ html {
 }
 * {
   @apply Clash;
+}
+html{
+  overflow-x: hidden;
 }

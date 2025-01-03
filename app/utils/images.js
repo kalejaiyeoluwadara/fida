@@ -1,2 +1,3 @@
 import hero from "@/public/assets/hero1.jpg";
-module.exports = { hero };
+import logo from "@/public/assets/logo.svg";
+module.exports = { hero, logo };

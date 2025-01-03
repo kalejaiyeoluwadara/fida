@@ -3,15 +3,15 @@ import Image from "next/image";
 import { images } from "../utils";
 function Hero2() {
   return (
-    <main className="flex h-full pb-[100px] mt-[100px] w-full justify-between relative px-8 ">
-      <div>
+    <main className="flex sm:my-[200px] h-full  gap-12 mt-[100px] w-full sm:flex-row flex-col justify-between relative px-8 ">
+      <div className="w-[50%] flex-shrink-0">
         <Image
           src={images.hero}
           alt=""
-          className="h-[600px] object-cover w-[500px] rounded-[25px]  "
+          className="h-[600px] object-cover w-[600px] rounded-[25px]  "
         />
       </div>
-      <div className="w-[50%]">
+      <div className="">
         <h1 className=" text-5xl leading-tight ">
           Empowering Your <br /> Digital Presence
         </h1>
@@ -27,7 +27,10 @@ function Hero2() {
           {/* card */}
           {[1, 2, 3, 4].map((d, id) => {
             return (
-              <div className="w-[220px]  border border-gray-300 h-[150px] flex flex-col gap-4 px-4 py-3 rounded-[20px] ">
+              <div
+                key={id}
+                className="w-[250px]  border border-gray-300 h-[150px] flex flex-col gap-4 px-4 py-3 rounded-[20px] "
+              >
                 <div className="h-[40px] w-[40px] rounded-full border "></div>
                 <p className="mt-4 text-xl font-[500]">
                   Strategic Digital Campaigns

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { images } from "../utils";
 function Hero1() {
   return (
-    <main className="flex h-full pb-[100px] mt-[100px] w-full justify-between relative pl-8 ">
+    <main className="flex h-full pb-[100px] mt-[100px] w-full justify-between relative pl-8  sm:flex-row flex-col">
       <div className="w-[50%]">
         <h1 className="w-[50px]  text-7xl  ">Digital Marketing Expertise</h1>
         <div className="mt-[200px]">

@@ -8,11 +8,34 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Bold";
+  src: url("../public/ClashDisplay_Complete/ClashDisplay-Bold.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../public/ClashDisplay_Complete/ClashDisplay-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.box {
+  @apply px-6 border-r;
+}
 html {
   @apply overflow-x-hidden;
 }
 .Clash {
   font-family: "Clash", sans-serif;
+}
+.Bold {
+  font-family: "Bold", sans-serif;
+}
+.Medium {
+  font-family: "Medium", sans-serif;
 }
 * {
   @apply Clash;

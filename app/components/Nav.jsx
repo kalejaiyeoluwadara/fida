@@ -14,25 +14,27 @@ function Nav() {
         <Image src={images.logo} alt="Logo" className="h-[60px] w-[60px] " />
       </Link>
       <div className=" hidden sm:flex gap-12">
-        <Link href={"/"} className="link">
+        <Link href="#about" className="link text-lg block">
           About
         </Link>
-        <Link href={"/"} className="link">
+        <Link href="#services" className="link text-lg block">
           Services
         </Link>
-        <Link href={"/"} className="link">
+        <Link href="#pricing" className="link text-lg block">
           Pricing
         </Link>
-        <Link href={"/"} className="link">
+        <Link href="#contact" className="link text-lg block">
           Contact
         </Link>
       </div>
       <div className="hidden sm:flex gap-4">
         <p className="px-2 border-b-[1.1px] cursor-pointer border-black Medium">
-          fida@gmail.com
+          <Link href={"mailto:fida@gmail.com"} target="_blank">
+            fida@gmail.com
+          </Link>
         </p>
         <p className="px-2 border-b-[1.1px] cursor-pointer border-black Medium">
-          Get in Touch
+          <Link href={"#contact"}>Get in Touch</Link>
         </p>
       </div>
       <div

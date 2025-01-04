@@ -2,7 +2,7 @@ import React from "react";
 
 function Pricing() {
   return (
-    <section className=" sm:px-8 py-16">
+    <section id="pricing" className=" sm:px-8 py-16">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Pricing</h2>
         <p className="text-gray-600 mb-12">

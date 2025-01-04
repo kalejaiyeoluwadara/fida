@@ -17,19 +17,19 @@ function Hero1() {
             heights in the digital landscape.
           </p>
           <div className="mt-[30px] flex gap-8">
-            <button className="text-white bg-black rounded-full w-[170px] h-[55px] sm:h-[60px] flex justify-center group gap-2 items-center">
+            <button className="text-white bg-black rounded-full w-[200px] sm:w-[170px] h-[50px] sm:h-[60px] flex justify-center group gap-2 items-center">
               <LuArrowUpRight className="group-hover:translate-x-[-4px] transition-all  " />
               Get in touch
             </button>
-            <button className="text-black hover:font-semibold transition-all rounded-full w-[170px] h-[50px] ">
+            <button className="text-black hover:font-semibold transition-all rounded-full w-[160px] sm:w-[170px] h-[50px] ">
               Learn More
             </button>
           </div>
           <hr className="my-12" />
           <div>
             <h3 className="  text-xl sm:mb-0 mb-6 sm:text-3xl sm:tracking-wide ">
-              We harness the power of of cutting-edge tools and platforms to
-              ensure your brand stands out in a crowded digital space.
+              We harness the power of cutting-edge tools and platforms to ensure
+              your brand stands out in a crowded digital space.
             </h3>
           </div>
         </div>

@@ -32,16 +32,16 @@ function Menu({ isMenuOpen, setIsMenuOpen }) {
 
               {/* Navigation Links */}
               <nav className="space-y-4">
-                <Link href="/" className="link text-lg block">
+                <Link href="#about" className="link text-lg block">
                   About
                 </Link>
-                <Link href="/" className="link text-lg block">
+                <Link href="#services" className="link text-lg block">
                   Services
                 </Link>
-                <Link href="/" className="link text-lg block">
+                <Link href="#pricing" className="link text-lg block">
                   Pricing
                 </Link>
-                <Link href="/" className="link text-lg block">
+                <Link href="#contact" className="link text-lg block">
                   Contact
                 </Link>
               </nav>

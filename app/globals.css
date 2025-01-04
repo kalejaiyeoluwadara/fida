@@ -52,6 +52,7 @@ h1 {
 }
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   /* @apply bg-gray-50 */

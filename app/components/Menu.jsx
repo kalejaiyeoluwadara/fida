@@ -2,6 +2,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 function Menu({ isMenuOpen, setIsMenuOpen }) {
+  const handleLinkClick = () => {
+    setIsMenuOpen(false); // Close modal when link is clicked
+  };
+
   return (
     <div className="fixed top-0 left-0 z-50">
       <AnimatePresence>
@@ -32,16 +36,32 @@ function Menu({ isMenuOpen, setIsMenuOpen }) {
 
               {/* Navigation Links */}
               <nav className="space-y-4">
-                <Link href="#about" className="link text-lg block">
+                <Link
+                  href="#about"
+                  className="link text-lg block"
+                  onClick={handleLinkClick}
+                >
                   About
                 </Link>
-                <Link href="#services" className="link text-lg block">
+                <Link
+                  href="#services"
+                  className="link text-lg block"
+                  onClick={handleLinkClick}
+                >
                   Services
                 </Link>
-                <Link href="#pricing" className="link text-lg block">
+                <Link
+                  href="#pricing"
+                  className="link text-lg block"
+                  onClick={handleLinkClick}
+                >
                   Pricing
                 </Link>
-                <Link href="#contact" className="link text-lg block">
+                <Link
+                  href="#contact"
+                  className="link text-lg block"
+                  onClick={handleLinkClick}
+                >
                   Contact
                 </Link>
               </nav>

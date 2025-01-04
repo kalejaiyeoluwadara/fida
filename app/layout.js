@@ -1,28 +1,20 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
 export const metadata = {
   title: "FIDA",
   description: "FIDA",
+  icons: {
+    icon: "/favicon.png", // Path to your favicon in the public folder
+    apple: "/favicon.png", // Optional for Apple touch icons
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=" antialiased">
+      <body className="antialiased">
         <Nav />
         {children}
         <Footer />

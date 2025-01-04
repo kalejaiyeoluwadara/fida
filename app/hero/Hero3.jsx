@@ -14,7 +14,7 @@ function Hero3() {
       </div>
       <div className="w-full mt-[70px] px-12 sm:gap-0 gap-6 grid sm:grid-cols-3">
         {/* grid1 */}
-        <div className="flex box border-b border-gray-100 h-[260px] sm:h-[250px] items-center justify-center flex-col text-center">
+        <div className="flex box border-b border-gray-100 h-auto sm:h-[250px] items-center justify-center flex-col text-center">
           <div className="h-[40px] w-[40px] flex-shrink-0 rounded-full bg-gray-100 "></div>
           <div className="mt-4">
             <h4 className="text-xl Medium ">Conversion Rate Optimization</h4>
@@ -25,7 +25,7 @@ function Hero3() {
           </div>
         </div>
         {/* grid2 */}
-        <div className="flex box border-b border-gray-100 bg-gray-50 h-[260px] sm:h-[250px] items-center justify-center flex-col text-center">
+        <div className="flex box border-b border-gray-100 bg-gray-50 h-auto sm:h-[250px] items-center justify-center flex-col text-center">
           <div className="h-[40px] w-[40px] flex-shrink-0 rounded-full bg-gray-100 "></div>
           <div className="mt-4">
             <h4 className="text-xl Medium ">Conversion Rate Optimization</h4>
@@ -36,7 +36,7 @@ function Hero3() {
           </div>
         </div>
         {/* grid3 */}
-        <div className="flex box border-b border-gray-100 h-[260px] sm:h-[250px] items-center justify-center flex-col text-center">
+        <div className="flex box border-b border-gray-100 h-auto sm:h-[250px] items-center justify-center flex-col text-center">
           <div className="h-[40px] w-[40px] flex-shrink-0 rounded-full bg-gray-100 "></div>
           <div className="mt-4">
             <h4 className="text-xl Medium ">Conversion Rate Optimization</h4>
@@ -47,7 +47,7 @@ function Hero3() {
           </div>
         </div>
         {/* grid4 */}
-        <div className="flex box bg-gray-50 border-gray-100 h-[260px] sm:h-[250px] items-center justify-center flex-col text-center">
+        <div className="flex box bg-gray-50 border-gray-100 h-auto sm:h-[250px] items-center justify-center flex-col text-center">
           <div className="h-[40px] w-[40px] flex-shrink-0 rounded-full bg-gray-100 "></div>
           <div className="mt-4">
             <h4 className="text-xl Medium ">Conversion Rate Optimization</h4>
@@ -58,7 +58,7 @@ function Hero3() {
           </div>
         </div>
         {/* grid5 */}
-        <div className="flex box border-gray-100 h-[260px] sm:h-[250px] items-center justify-center flex-col text-center">
+        <div className="flex box border-gray-100 h-auto sm:h-[250px] items-center justify-center flex-col text-center">
           <div className="h-[40px] w-[40px] flex-shrink-0 rounded-full bg-gray-100 "></div>
           <div className="mt-4">
             <h4 className="text-xl Medium ">Conversion Rate Optimization</h4>
@@ -69,7 +69,7 @@ function Hero3() {
           </div>
         </div>
         {/* grid6 */}
-        <div className="flex box bg-gray-50 border-gray-100 h-[260px] sm:h-[250px] items-center justify-center flex-col text-center">
+        <div className="flex box bg-gray-50 border-gray-100 h-auto sm:h-[250px] items-center justify-center flex-col text-center">
           <div className="h-[40px] w-[40px] flex-shrink-0 rounded-full bg-gray-100 "></div>
           <div className="mt-4">
             <h4 className="text-xl Medium ">Conversion Rate Optimization</h4>

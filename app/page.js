@@ -6,7 +6,7 @@ import Hero3 from "./hero/Hero3";
 import Hero4 from "./hero/Hero4";
 export default function Home() {
   return (
-    <main className="pb-10">
+    <main className="pb-10 sm:px-0 px-2">
       <Hero1 />
       <Hero2 />
       <Hero3 />

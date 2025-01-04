@@ -17,10 +17,9 @@ function Hero2() {
         </h1>
         <div className="mt-[20px]">
           <p className="sm:w-[90%]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Praesentium et asperiores sit ut atque tenetur, eum reprehenderit
-            deleniti quibusdam quam vel in fugit nam recusandae labore molestias
-            reiciendis optio excepturi!
+            By partnering with us, you benefit from a holistic approach to
+            digital markreting that combines strategic thinking, data driven
+            insights, seo expertise, and compelling content creation
           </p>
         </div>
         <div className="mt-10 grid sm:grid-cols-2 gap-6  ">

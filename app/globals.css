@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import Google Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+/* Existing font-face definitions */
 @font-face {
   font-family: "Clash";
   src: url("../public/ClashDisplay_Complete/ClashDisplay-Regular.ttf");
@@ -22,6 +27,8 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* Tailwind CSS utilities and custom styles */
 .link {
   @apply hover:text-black transition-all text-gray-500;
 }
@@ -46,3 +53,16 @@ h1 {
 html {
   overflow-x: hidden;
 }
+body {
+  /* @apply bg-gray-50 */
+}
+
+/* Apply Inter to all <p> tags */
+
+.Inter{
+  font-family: 'Inter', sans-serif;
+}
+li{
+  font-family: 'Inter', sans-serif;
+}
+

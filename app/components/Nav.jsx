@@ -28,10 +28,10 @@ function Nav() {
         </Link>
       </div>
       <div className="hidden sm:flex gap-4">
-        <p className="px-2 border-b-[1.1px] border-black Medium">
+        <p className="px-2 border-b-[1.1px] cursor-pointer border-black Medium">
           fida@gmail.com
         </p>
-        <p className="px-2 border-b-[1.1px] border-black Medium">
+        <p className="px-2 border-b-[1.1px] cursor-pointer border-black Medium">
           Get in Touch
         </p>
       </div>
